@@ -1,77 +1,111 @@
 body {
-    background: rgb(29, 42, 80);
-    color: rgb(92, 74, 74);
-    padding: 10px;
-    font-family: Arial, sans-serif;
+  background: rgb(15, 38, 73);
+  color: rgb(31, 28, 28);
+  padding: 10px;
+  font-family: Arial, sans-serif;
 }
 
 #all-contents {
-    max-width: 800px;
-    margin: auto;
+  max-width: 900px;
+  max-height: 1000px;
+  margin-left: 500px;
 }
 
 /* navigation menu */
 nav {
-    background: rgb(16, 17, 14);
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
-    margin-bottom: 20px;
+  background: rgb(16, 17, 14);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 h1 {
-    display: flex;
-    align-items: center;
-    color: white;
-    flex: 1;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  color: rgb(189, 189, 189);
+  flex: 1;
+  margin: 0;
 }
 
 #nav-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
-    display: flex;
-    margin-top: 20px;
+  background: rgb(245, 238, 219);
+  display: flex;
+  margin-top: 20px;
 }
 
 .sidebar {
-    margin-right: 25px;
-    padding: 10px;
+  margin-right: 25px;
+  padding: 10px;
+  height: 200px;
 }
 
 .sidebar-img {
-    width: 200px;
+  width: 400px;
 }
 
 .content {
-    flex: 1;
-    padding: 15px;
+  flex: 1;
+  padding: 15px;
 }
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
-    padding: 8px;
-    margin-top: 20px;
+  border: 40px silver ridge;
+  padding: 20px;
+  margin-top: 200px;
 }
 
-h2, h3 {
-    margin: 0px;
+h2,
+h3 {
+  margin: 0px;
+}
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
+}
+.links {
+  margin-top: 10px;
+}
+.content {
+  border: 10px rgb(216, 17, 17) ridge;
 }
